@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: poppins;
+  }
+  header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color:black;
+   color:red;
+   padding:50px 10%;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  ul li a{
+    color: aliceblue;
+    margin: 30px;
+    text-decoration: none;
+  
+  }
+  ul li a:hover{
+    color: yellow;
+    transition: 0.3s;
+  }
+  
+.parent1
+{
+display: flex;
+align-items: center;
+padding: 50px 0 0 170px;
+background-color: black;
+color: aliceblue;
+
+
+}
+.child2{
+margin: 0 0 0 200px;
+}
+.child1{
+margin-left: 40px;
+}
+#btn1{
+    color: red;
+    border-radius: 50px;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+}
+span{
+    color: red;
+}
+.parent2
+{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 200px;
+}
+.child3{
+    width: 300px;
+    margin-left: 100px;
+}
+.parent3{
+    flex-basis: 33%;
+    padding-left: 270px;
+}
+.parent4{
+    display: flex;
+    justify-content: space-around;
+}
+.parent5
+{
+    display: flex;
+justify-content: space-around;
+}
+.parent6{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    position:relative
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+background: transparent;
+color: aliceblue;
+}
+.text1{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    color: aliceblue;
+    background: transparent;
+}
+.parent7{
+    justify-content: center;
+   color: aliceblue;
+   height: 100px;
+   text-align: center;
+   display: flex;
+}
